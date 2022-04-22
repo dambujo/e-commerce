@@ -1,6 +1,6 @@
 export default {
-  name: 'prdoduct',
-  title: 'product',
+  name: 'product',
+  title: 'Product',
   type: 'document',
   fields: [
     {
@@ -8,8 +8,8 @@ export default {
       title: 'Image',
       type: 'array',
       of: [{ type: 'image' }],
-      Option: {
-        hostpot: true,
+      options: {
+        hotspot: true,
       },
     },
     {
@@ -19,7 +19,7 @@ export default {
     },
     {
       name: 'slug',
-      title: 'slug',
+      title: 'Slug',
       type: 'slug',
       options: {
         source: 'name',
@@ -28,12 +28,12 @@ export default {
     },
     {
       name: 'price',
-      title: 'price',
+      title: 'Price',
       type: 'number',
     },
     {
       name: 'details',
-      title: 'details',
+      title: 'Details',
       type: 'string',
     },
   ],
