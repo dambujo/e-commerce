@@ -4,6 +4,7 @@ import { Product, FooterBanner, HeroBanner } from '../components';
 import { client } from '../lib/client';
 
 const index = ({ products, bannerData }) => {
+  console.log(products);
   return (
     <div>
       <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
