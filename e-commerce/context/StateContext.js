@@ -30,7 +30,7 @@ export const StateContext = ({ children }) => {
           };
       });
 
-      setCardItems(updateCartItems);
+      setCartItems(updateCartItems);
     } else {
       product.quantity = quantity;
 
